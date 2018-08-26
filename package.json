@@ -1,10 +1,16 @@
 {
-  "dependencies": {
-    "ts-node": "^7.0.1",
-    "typescript": "^3.0.1"
-  },
+  "name": "nuber-server",
+  "version": "1.0.0",
+  "description": "Server for the (N)Uber Clone Course on Nomad Academy. GraphQL, Typescript, NodeJS",
+  "main": "index.js",
+  "repository": "https://github.com/nomadcoders/nuber-server",
+  "author": "sondeokju <thsejrwn7808@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
+    "@types/node": "^10.9.2",
     "nodemon": "^1.18.3",
-    "tslint-config-prettier": "^1.14.0"
+    "ts-node": "^7.0.1",
+    "tslint-config-prettier": "^1.15.0",
+    "typescript": "^3.0.1"
   }
 }
